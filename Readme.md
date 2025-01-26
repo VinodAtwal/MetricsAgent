@@ -36,7 +36,7 @@ This will generate a shaded JAR file in the `target/` directory.
 
 ## static loading
 ```bash
-java -javaagent:Agent.jar=org.va,org.report-mgmt -jar Service-1.0-SNAPSHOT.jar
+java -javaagent:MetricsAgent.jar=org.va,org.report-mgmt -jar Service-1.0-SNAPSHOT.jar
 ```
 
 ## dynamic loading
